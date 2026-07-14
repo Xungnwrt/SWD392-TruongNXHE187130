@@ -1,0 +1,17 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ],
+  "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-21.0.11",
+  "java.debug.settings.console": "integratedTerminal",
+  "java.debug.settings.onBuildFailureProceed": false,
+  "files.exclude": {
+    "**/.vpp.bak_*": true
+  },
+  "terminal.integrated.cwd": "${workspaceFolder}"
+}

@@ -1,0 +1,21 @@
+<plugin
+	id="bookmgmt.diagrams"
+	name="Book Management Diagrams Generator"
+	description="Generate Class Diagram and Sequence Diagrams for Manage Book lab"
+	provider="SWD Lab"
+	class="bookmgmt.vpplugin.DiagramPlugin">
+
+	<actionSets>
+		<actionSet id="bookmgmt.diagrams.actionset">
+			<action
+				id="bookmgmt.diagrams.GenerateAction"
+				actionType="generalAction"
+				label="Generate Book Management Diagrams"
+				tooltip="Generate Class and Sequence Diagrams"
+				style="normal"
+				menuPath="Tools/Plugins">
+				<actionController class="bookmgmt.vpplugin.GenerateDiagramsAction"/>
+			</action>
+		</actionSet>
+	</actionSets>
+</plugin>

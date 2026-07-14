@@ -1,0 +1,17 @@
+# Build output
+bin/
+
+# Visual Paradigm backups
+*.vpp.bak_*
+*.vpp.bak*
+
+# IDE / OS
+.vs/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local temp
+tools/vp-plugin/classes/
+*.tmp
