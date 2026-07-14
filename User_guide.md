@@ -7,4 +7,4 @@ Cách chạy
 
 1. Chạy `sql/schema.sql` trên SQL Server  
 2. Kiểm tra `resources/db.properties` (Windows Auth / localhost)  
-3. `compile.bat` rồi `run.bat` (hoặc VS Code mở qua `C:\dev\ProjectSWD`)
+3. `compile.bat` rồi `run.bat` (hoặc VS Code)
